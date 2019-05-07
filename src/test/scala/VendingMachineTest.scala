@@ -23,8 +23,10 @@ class VendingMachineTest extends FunSuite with BeforeAndAfter{
     val fiftyN=new Money(5,10,Note)
     val hundredN=new Money(10,4,Note)
 
+
+
   }
  test("vending machine test"){
-
+  
  }
 }

@@ -1,12 +1,12 @@
 package model
 
-class Admin {
+trait Admin {
 
-  def addItems(items:Item*)={
-
+  def addItem(item:Item)={
+   VendingMachine.addItem(item)
   }
-  def addMoney(value:Int,count:Int,moneyType: MoneyType)={
-
+  def addMoney(money:Money)={
+  VendingMachine.addMoney(money)
   }
 
 }

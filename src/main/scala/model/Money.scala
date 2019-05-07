@@ -1,5 +1,5 @@
 package model
 
-case class Money (value:Int,count:Int,moneyType:MoneyType){
+case class Money (value:Int,var count:Int,moneyType:MoneyType){
 
 }
